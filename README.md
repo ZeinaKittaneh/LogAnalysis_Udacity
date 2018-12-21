@@ -2,7 +2,7 @@
 Building a reporting tool that summarizes data from a large database
 
 ## Introduction
-this project aims to explore a large database with over a million rows, then build and refine complex queries and use them to draw business conclusions from data.
+This project aims to explore a large database with over a million rows, then build and refine complex queries and use them to draw business conclusions from data.
 
 The database includes three tables:
 * The authors table includes information about the authors of articles.
@@ -10,8 +10,8 @@ The database includes three tables:
 * The log table includes one entry for each time a user has accessed the site.
 
 ## Running code
-follow these steps:
-1. Download the file `newsdata.sql` then load the data into local database using the command:
+Follow these steps:
+1. Download the file `newsdata.zip` , unzip it, then load the data into local database using the command:
 ```
 psql -d news -f newsdata.sql
 ```
